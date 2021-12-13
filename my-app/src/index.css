@@ -5,7 +5,6 @@ body {
   font-family: "Poppins", "Roboto", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to top, #330000, #111);
   background-attachment: fixed;
   color: #021B79;
   overflow-x: hidden;

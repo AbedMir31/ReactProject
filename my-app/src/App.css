@@ -31,8 +31,12 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-image: url(frel-lor-31.jpg);
+  background-size: cover;
+  /*
   background: var(--start-color);
   background: linear-gradient(to top, var(--start-color), var(--end-color)) no-repeat;
+  */
   font-family: 'Nunito', sans-serif;
 }
 
@@ -40,8 +44,9 @@ body {
   display: flex;
   font-family: 'Poppins', sans-serif;
   color: #fff;
-  font-size: 250%;
+  font-size: 150%;
   padding: 20px;
+  background-color: #0112509a;
 }
 
 .topbar a {
@@ -58,8 +63,8 @@ body {
 }
 
 .wrapper .content {
-  background: #fff;
-  padding: 100px;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 80px;
   width: 900px;
   border-radius: 10px;
   text-align: center;
@@ -73,7 +78,7 @@ body {
 .wrapper .content section {
   color: var(--p-color);
   font-size: 150%;
-  margin-top: 50px;
+  padding: 10px;
 }
 .wrapper .content footer {
   padding: 15px;
@@ -81,10 +86,14 @@ body {
 .wrapper .content footer input {
   border: unset;
   background-color: var(--input-background);
-  padding: var(--padding-15);
-  font-size: 13px;
+  padding: 12px;
+  padding-left: 20px;
+  font-size: 20px;
   border-radius: var(--radius-50);
-  width: 500px;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .wrapper .content footer button {
   background-color: var(--button-background);
@@ -94,6 +103,7 @@ body {
   border-radius: var(--radius-50);
   padding: var(--padding-15);
   margin-left: 10px;
+  font-size: 18px;
   cursor: pointer;
 }
 
