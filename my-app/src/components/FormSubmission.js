@@ -1,4 +1,5 @@
 import React from 'react';
+import getSummoner from '../data';
 
 export default class FormSubmission extends React.Component {
     constructor(props) {
@@ -14,11 +15,10 @@ export default class FormSubmission extends React.Component {
     
     handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state.value);
-
+        getSummoner(this.state.value);
         this.setState({
             value: ''
-        });
+        })
     }
     render() {
         return (

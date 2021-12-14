@@ -1,3 +1,6 @@
+# Server Files
+/server
+
 # Logs
 logs
 *.log
