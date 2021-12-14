@@ -30,9 +30,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background-image: url(frel-lor-31.jpg);
-  background-size: cover;
+  height: 100vh; 
   /*
   background: var(--start-color);
   background: linear-gradient(to top, var(--start-color), var(--end-color)) no-repeat;
@@ -40,13 +38,39 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow:hidden
+}
+
+.main-background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 10;
+  bottom: 0;
+  left: 10;
+  right: 10;
+}
+.overlay {
+  position: absolute
+}
+
 .topbar {
   display: flex;
+  background-color: #0112509a;
+  position: absolute;
+  width: 100%;
+}
+
+.bartext {
   font-family: 'Poppins', sans-serif;
   color: #fff;
   font-size: 150%;
   padding: 20px;
-  background-color: #0112509a;
 }
 
 .topbar a {
@@ -63,12 +87,13 @@ body {
 }
 
 .wrapper .content {
+  opacity: 90%;
   background: rgba(255, 255, 255, 0.96);
   padding: 80px;
   width: 900px;
   border-radius: 10px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 250px;
 }
 
 .wrapper .content header h1 {
